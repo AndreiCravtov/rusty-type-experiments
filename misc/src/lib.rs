@@ -6,9 +6,11 @@
 #![feature(unboxed_closures)]
 #![feature(const_trait_impl)]
 #![feature(fn_traits)]
+#![feature(non_lifetime_binders)]
 
 mod dyn_traits;
 pub mod func;
+mod meow_restricting;
 pub mod recursion;
 mod rust_gadt_playground;
 pub mod typelevel;
