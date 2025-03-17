@@ -1,0 +1,1 @@
+This crate exists as a playground containing all other Rust-hacks/explorations which are small/incomplete enough.

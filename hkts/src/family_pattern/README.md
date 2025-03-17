@@ -1,0 +1,1 @@
+Family-pattern encoding of HKTs inspired by this [ratz](https://github.com/mschuwalow/ratz/) repository.

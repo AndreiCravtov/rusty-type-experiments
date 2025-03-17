@@ -1,0 +1,11 @@
+pub mod ap;
+pub mod applicative;
+pub mod bind;
+pub mod foldable;
+pub mod functor;
+pub mod monad;
+pub mod monoid;
+pub mod pure;
+pub mod semigroup;
+pub mod traversable;
+pub mod traverse;

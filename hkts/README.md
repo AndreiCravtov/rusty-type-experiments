@@ -1,0 +1,1 @@
+This crate exists as a playground for me to explore different higher-kinded-type "encodings" in Rust. 

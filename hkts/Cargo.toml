@@ -1,0 +1,22 @@
+[package]
+name = "hkts"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[lib]
+doctest = false
+name = "hkts"
+path = "src/lib.rs"
+
+[lints]
+workspace = true
+
+[dependencies]
+# macro dependencies
+extend = { workspace = true }
+
+# utility dependencies
+thiserror = { workspace = true }
+func = { workspace = true }
+misc = { workspace = true }
