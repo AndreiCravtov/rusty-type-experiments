@@ -8,6 +8,8 @@
 // #![feature(fn_traits)]
 // #![feature(non_lifetime_binders)]
 
+pub mod data;
+
 pub(crate) mod private {
     /// Sealed traits support
     pub trait Sealed {}
