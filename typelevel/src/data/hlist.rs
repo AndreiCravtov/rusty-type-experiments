@@ -15,7 +15,7 @@ use std::ops::Add;
 /// Trait for HList-y behaviour
 ///
 /// An `HList` is a heterogeneous list, one that is statically typed at compile time. In simple terms,
-/// it is just an arbitrarily-nested 2-tuple.
+/// it is just an arbitrarily-nested Tuple2.
 pub trait HList: Sized {
     /// Returns the length of a given `HList` type without making use of any references, or in fact,
     /// any values at all.
@@ -283,7 +283,7 @@ impl<Head, Tail> HCons<Head, Tail> {
         Selector::get_mut(self)
     }
 
-    /// Remove an element by type from an HList.
+    /// Remove an element by type from an `HList`.
     ///
     /// The remaining elements are returned along with it.
     #[inline(always)]
