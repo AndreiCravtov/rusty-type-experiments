@@ -4,11 +4,13 @@
 // #![feature(type_alias_impl_trait)]
 // #![feature(specialization)]
 // #![feature(unboxed_closures)]
-// #![feature(const_trait_impl)]
+#![feature(const_trait_impl)]
+#![feature(tuple_trait)]
 // #![feature(fn_traits)]
 // #![feature(non_lifetime_binders)]
 
 pub mod data;
+pub mod traits;
 
 pub(crate) mod private {
     /// Sealed traits support
